@@ -1,0 +1,26 @@
+// form example
+doctype html
+html
+	head 
+		title Deficit Entry 
+	body
+		form(action = "/deficit", method = "POST")
+			div 
+				label(for = "country") Name:-
+				input(name ="country" value = "India")
+			br
+			div 
+				label(for = "expimp") Export/Import:-
+				input(name ="expimp" value = "Export")
+				
+			br
+			div 
+				label(for = "volume") Volume:-
+				input(name ="volume" value = "200Billion")
+				
+			br
+			
+			
+			button(type = "submit")  Submit Country Deficit
+			
+			
